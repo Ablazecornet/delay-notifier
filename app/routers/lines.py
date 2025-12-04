@@ -19,4 +19,4 @@ async def get_lines(operator_id: int):
 async def get_lines(line_id: int):
     pass
 
-#test
+#テスト
