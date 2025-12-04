@@ -18,3 +18,4 @@ async def get_lines(operator_id: int):
 @router.get("/v1/lines/{line_id}")
 async def get_lines(line_id: int):
     pass
+#特定の路線に属する駅一覧を取得する
