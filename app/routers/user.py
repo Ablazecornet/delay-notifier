@@ -39,4 +39,4 @@ async def update_user(user_id: int, user_body: user_schema.UserCreate):
 
 @router.delete("/users/{user_id}", response_model=None)
 async def delete_user(user_id: int):
-    return
+    pass
