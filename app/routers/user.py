@@ -6,7 +6,7 @@ router = APIRouter()
 @router.get("/{user_id}", response_model=user_schema.User)
 async def get_user(user_id: int):
     return user_schema.User(
-        id=1,
+        id=user_id,
         username="YamadaTaro",
         email="test@example.com",
         password="password123"
